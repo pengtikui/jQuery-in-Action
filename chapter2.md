@@ -2,6 +2,8 @@
 
 ### 利用基本 CSS 选择器
 
+| 选择器 | 作用 |
+| :--- | :--- |
 | a | 匹配所有 `a` 标签元素 |
 | #specialID | 匹配 id 为 specialID 的元素 |
 | .specialClass | 匹配拥有 CSS 类 specialClass 的元素 |
