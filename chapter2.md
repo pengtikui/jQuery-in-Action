@@ -50,6 +50,8 @@
 
 ### 利用自定义 jQuery 选择器
 
+| 选择器 | 描述 |
+| :--- | :--- |
 | :animated | 当前处于动态控制之下的元素 |
 | :button | 任何按钮（input[type=submit]、input[type=reset]、input[type=button] 或 button） |
 | :checkbox | 复选框元素（input[type=checkbox]） |
