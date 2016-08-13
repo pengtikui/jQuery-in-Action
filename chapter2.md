@@ -76,7 +76,7 @@
 
 ## 生成新 HTML
 
-创建空 <div> 元素，`$("<div></div>")`、`$("<div>")` 和 `$("</div>")` 均可，不过后两者不可用于创建 <script> 元素
+创建空 `<div>` 元素，`$("<div></div>")`、`$("<div>")` 和 `$("</div>")` 均可，不过后两者不可用于创建 <script> 元素
 
 `$("<div></div>").appendTo("#id");`
 
@@ -94,7 +94,7 @@
 
 jQuery 允许把包装集当成 JavaScript 数组进行处理
 
-例如获取页面上带有 alt 特性的所有 <img> 元素的集合中的第一个：`$('img[alt]')[0]`
+例如获取页面上带有 alt 特性的所有 `<img>` 元素的集合中的第一个：`$('img[alt]')[0]`
 
 #### get(index)
 
@@ -112,7 +112,7 @@ index 参数（数值）用于指定将被返回的单个元素
 
 把表达式参数所指定的元素添加到包装集，表达式可以是选择器、HTML 片段、DOM 元素或 DOM 元素数组，返回包装集
 
-* 想要匹配带有 alt 或 title 特性的所有 <img> 元素，语句为：`$('img[alt]').add('img[title]')`，不过也可以这么写：`$('img[alt], img[title]')`
+* 想要匹配带有 alt 或 title 特性的所有 `<img>` 元素，语句为：`$('img[alt]').add('img[title]')`，不过也可以这么写：`$('img[alt], img[title]')`
 
 * 想要给带 alt 特性的所有 <img> 元素添加一个 CSS 类 class1，然后给带 alt 或 title 特性的所有 <img> 元素添加一个 CSS 类 class2，语句为：`$('img[alt]').addClass('class1').add('img[title]').addClass('class2')`
 
