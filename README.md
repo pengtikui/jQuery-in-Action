@@ -8,7 +8,7 @@
 * [第2章 创建元素包装集](chapter2.md)
 * [第3章 用 jQuery 让页面生动起来](chapter3.md)
 * [第4章 事件](chapter4.md)
-* 第5章 用动画和效果来装扮网页
+* [第5章 用动画和效果来装扮网页](chapter5.md)
 * 第6章 jQuery 实用工具函数
 * 第7章 用自定义插件来扩展 jQuery
 * 第8章 利用 Ajax 与服务器交谈
